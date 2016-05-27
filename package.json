@@ -1,0 +1,19 @@
+{
+  "name": "slack-crowdin-microservice",
+  "version": "1.0.0",
+  "description": "A service that can send notices to SLACK when CROWDIN is updated, by using the webhooks functionality of crowdin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ludo Bermejo",
+  "license": "Private",
+  "dependencies": {
+    "@slack/client": "^3.3.0",
+    "deep-equal": "^1.0.1",
+    "fs-promise": "^0.5.0",
+    "nconf": "^0.8.4",
+    "promise": "^7.1.1",
+    "request-promise": "^3.0.0"
+  }
+}
